@@ -16,5 +16,6 @@ def write_byte(lists):
         else:
             print("Все ок.")
 
-list_1 = ['attribute','класс','функция','type']
+
+list_1 = ['attribute', 'класс', 'функция', 'type']
 write_byte(list_1)
