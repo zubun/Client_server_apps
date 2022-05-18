@@ -6,16 +6,16 @@ from chardet import detect
 
 encoding = ['"cp866"', '"utf8"', '"cp1251"', '"UTF-16"']
 
-file = open('test_file.txt', 'w', encoding=random.choice(encoding))
+file = open('../test_file.txt', 'w', encoding=random.choice(encoding))
 file.write('сетевое программирование, сокет, декоратор')
 file.close()
 
-with open('test_file.txt', 'rb') as f:
+with open('../test_file.txt', 'rb') as f:
     content = f.read()
 encoding = detect(content)['encoding']
 print('encoding: ', encoding)
 
-with open('test_file.txt', encoding=encoding) as f_n:
+with open('../test_file.txt', encoding=encoding) as f_n:
     for el_str in f_n:
         print(el_str, end='\n' + '-' * 10)
     print()
