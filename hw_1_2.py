@@ -3,7 +3,6 @@
 encode, decode или функцию bytes) и определить тип, содержимое и длину соответствующих переменных.
 '''
 
-
 list_1 = ['classs', 'function', 'method']
 
 for i in list_1:
