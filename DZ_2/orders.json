@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "item": "Клавиатура",
+            "quantity": "10",
+            "price": "6700",
+            "buyer": "Uluanov V.I.",
+            "date": "24.09.1918"
+        },
+        {
+            "item": "Мышь",
+            "quantity": "20",
+            "price": "1000",
+            "buyer": "Stalin I.V.",
+            "date": "11.01.1949"
+        },
+        {
+            "item": "Монитор",
+            "quantity": "5",
+            "price": "20000",
+            "buyer": "Смолкин С.С.",
+            "date": "2.05.2019"
+        }
+    ]
+}
